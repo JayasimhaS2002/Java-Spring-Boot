@@ -1,9 +1,9 @@
 package com.project.joblisting.repository;
-//one
+//main
 import java.util.List;
-//one
+//main
 import com.project.joblisting.model.Post;
-//one
+//main
 public interface SearchRepository {
 
     List<Post> findBytext(String text);
